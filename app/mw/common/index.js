@@ -1,3 +1,4 @@
+const os = require('os');
 
 async function log(ctx, next){
     const start = Date.now();
